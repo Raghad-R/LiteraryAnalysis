@@ -7,7 +7,6 @@ def analyze_literary_work(text):
    
     max_tokens = 4096
     sentences = text.split(".")
-   
     current_tokens = 0
     truncated_text = ""
     for sentence in sentences:
